@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- These two lines are filled in automatically from content.js -->
+<title>Loading…</title>
+<meta name="description" content="">
+
+<!-- The little icon in the browser tab -->
+<link rel="icon" href="assets/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta name="theme-color" content="#2F5D57">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ==================== TOP BAR ==================== -->
+<header class="topbar" id="topbar">
+  <div class="topbar__inner">
+    <a class="topbar__name" href="#top" data-field="navName">&nbsp;</a>
+    <nav class="topbar__nav" aria-label="Section navigation">
+      <ul id="nav-list"></ul>
+    </nav>
+  </div>
+</header>
+
+<!-- ==================== HERO ==================== -->
+<div id="top"></div>
+<section class="hero" aria-labelledby="hero-name">
+  <div class="hero__banner" id="hero-banner"></div>
+  <div class="hero__body">
+    <img class="hero__photo" id="hero-photo" src="" alt="">
+    <h1 class="hero__name" id="hero-name"></h1>
+    <p class="hero__role" id="hero-role"></p>
+    <p class="hero__affil" id="hero-affil"></p>
+
+    <ul class="profiles" id="profiles" aria-label="Profiles and social links"></ul>
+
+    <div class="hero__actions" id="hero-actions"></div>
+  </div>
+</section>
+
+<!-- ==================== MAIN ==================== -->
+<main id="main">
+
+  <section class="section" id="about" aria-labelledby="about-h">
+    <h2 class="section__title" id="about-h">About</h2>
+    <p class="lede" id="tagline"></p>
+    <div class="prose" id="about-body"></div>
+    <ul class="interests" id="interests"></ul>
+
+    <div id="education-block">
+      <h3 class="subsection__title">Education</h3>
+      <ol class="education" id="education-list"></ol>
+    </div>
+  </section>
+
+  <section class="section" id="research" aria-labelledby="research-h">
+    <h2 class="section__title" id="research-h">Research</h2>
+
+    <div id="projects-block">
+      <h3 class="subsection__title">Projects</h3>
+      <ul class="projects" id="projects"></ul>
+    </div>
+
+    <div id="pubs-block">
+      <h3 class="subsection__title">Publications</h3>
+      <ol class="pubs" id="publications"></ol>
+    </div>
+  </section>
+
+  <section class="section" id="teaching" aria-labelledby="teaching-h">
+    <h2 class="section__title" id="teaching-h">Teaching</h2>
+    <ul class="teaching" id="teaching-list"></ul>
+  </section>
+
+  <section class="section" id="conferences" aria-labelledby="conf-h">
+    <h2 class="section__title" id="conf-h">Conferences &amp; talks</h2>
+    <ol class="talks" id="conferences-list"></ol>
+  </section>
+
+  <section class="section" id="extras" aria-labelledby="extras-h">
+    <h2 class="section__title" id="extras-h">Awards, methods &amp; affiliations</h2>
+    <div class="extras" id="lists"></div>
+  </section>
+
+  <section class="section section--contact" id="contact" aria-labelledby="contact-h">
+    <h2 class="section__title" id="contact-h">Contact</h2>
+    <div class="contact" id="contact-body"></div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p id="footer-line"></p>
+  <p class="footer__note" id="footer-note"></p>
+</footer>
+
+<script src="content.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
