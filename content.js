@@ -189,7 +189,7 @@ const CONTENT = {
       year: "",
       status: "Under revision",
       title: "The Chilling Effect: Productivity Norms and the Emergence of Psychological Safety Consensus in Latin America",
-      authors: "Rita Davidson, Maximiliano Escaffi-Schwarz, Lyonel Laulié, and Mahamadou Biga",
+      authors: "Maximiliano Escaffi-Schwarz, Rita Davidson, Lyonel Laulié, and Mahamadou Biga",
       venue: "Journal of Managerial Psychology",
       details: "Revise and resubmit, March 2026",
       links: [],
