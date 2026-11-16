@@ -267,43 +267,70 @@ const CONTENT = {
      6. TEACHING
      ========================================================================== */
 
-  teaching: [
+teaching: [
+  {
+  title: "Teaching and supervision",
+  role: "Associate Professor",
+  period: "2024 – present",
+  institution: "Universidad de Santiago de Chile",
+  modules: [
     {
-      title: "Strategy and qualitative research methods",
-      role: "Lecturer",
+      title: "Introduction to Administration",
+      level: "Undergraduate",
+      period: "2026",
+    },
+    {
+      title: "Business Strategy",
+      level: "Undergraduate",
       period: "2024 – present",
-      institution: "Universidad de Santiago de Chile",
-      text: "Designed and delivered postgraduate modules in strategy and qualitative research methods, including a six-lecture MBA course on strategy and a seventeen-lecture course on qualitative methods for an MSc in Marketing, alongside an undergraduate strategy module. Supervised MSc and MBA dissertation projects through to completion, and examined postgraduate theses.",
+    },
+    {
+      title: "Strategic Implementation and Control",
+      level: "Undergraduate",
+      period: "2026",
+    },
+    {
+      title: "Qualitative Research Methods for Marketing",
+      level: "Master’s — MSc in Marketing",
+      period: "2024",
     },
     {
       title: "Strategy",
-      role: "Lecturer",
-      period: "2023",
-      institution: "Universidad Diego Portales, Chile",
-      text: "Developed and designed a thirty-lecture undergraduate module on strategy for management students, creating the curriculum, assessments, and lecture materials.",
-    },
-    {
-      title: "Doctoral mentoring programme",
-      role: "Postdoctoral investigator",
-      period: "2022 – 2023",
-      institution: "Pontificia Universidad Católica de Valparaíso, Chile",
-      text: "Designed and implemented a mentoring programme for a cohort of twenty doctoral students, providing support in research methods and project management, and led a training seminar to develop their research and academic skills.",
-    },
-    {
-      title: "Introduction to Management and Organisation Studies",
-      role: "Lecturer",
-      period: "2019 – 2020",
-      institution: "Alliance Manchester Business School, United Kingdom",
-      text: "Developed a one-semester undergraduate module from scratch and delivered it across ten lectures to an audience of four hundred students. Led a team of five teaching assistants and administered the course, including assessment design, mark moderation, and support for students with special requirements.",
-    },
-    {
-      title: "Seminar leadership and coordination",
-      role: "Seminar leader and coordinator",
-      period: "2016 – 2021",
-      institution: "Alliance Manchester Business School, United Kingdom",
-      text: "Taught three undergraduate modules across management and organisation studies, work psychology, and transformational leadership. Coordinated teams of four to twelve seminar leaders and mentored groups of fifteen to twenty students. Kept the seminar programme running through the pandemic, including converting isolating cohorts to hybrid delivery at short notice. Twice awarded the Teaching Excellence Award.",
+      level: "Postgraduate — MBA",
+      period: "2024",
     },
   ],
+  text: "Supervision of master’s theses and examining at undergraduate, master’s and MBA levels, including undergraduate degree examinations (examen de grado).",
+},
+  {
+    title: "Strategy",
+    role: "Lecturer",
+    period: "2023",
+    institution: "Universidad Diego Portales, Chile",
+    text: "Designed and delivered an undergraduate strategy module for management students, developing the curriculum, assessments and teaching materials.",
+  },
+  {
+    title: "Doctoral mentoring programme",
+    role: "Postdoctoral investigator",
+    period: "2022 – 2023",
+    institution: "Pontificia Universidad Católica de Valparaíso, Chile",
+    text: "Designed and implemented a mentoring programme for twenty doctoral students, providing support in research methods and project management. Led a training seminar to develop participants’ research and academic skills.",
+  },
+  {
+    title: "Introduction to Management and Organisation Studies",
+    role: "Lecturer",
+    period: "2019 – 2020",
+    institution: "Alliance Manchester Business School, United Kingdom",
+    text: "Designed and delivered an undergraduate module introducing management and organisation theory to four hundred students. Led a team of five teaching assistants and managed course administration, including assessment design, mark moderation and support for students with additional learning needs.",
+  },
+  {
+    title: "Seminar leadership and coordination",
+    role: "Seminar leader and coordinator",
+    period: "2016 – 2021",
+    institution: "Alliance Manchester Business School, United Kingdom",
+    text: "Taught three undergraduate modules across management and organisation studies, work psychology, and transformational leadership. Coordinated teams of four to twelve seminar leaders and mentored groups of fifteen to twenty students. Kept the seminar programme running through the pandemic, including converting isolating cohorts to hybrid delivery at short notice. Twice awarded the Teaching Excellence Award.",
+  },
+],  
 
 
   /* ==========================================================================
