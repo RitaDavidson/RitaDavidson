@@ -192,8 +192,16 @@
     set("teaching-list", teaching.map(function (t) {
       var meta = [t.role, t.period, t.institution].filter(has)
         .map(function (m) { return "<span>" + esc(m) + "</span>"; }).join("");
+      var mods = (t.modules || []).filter(function (m) { return has(m && m.title); });
+      var modList = has(mods) ? '<ul class="modules">' + mods.map(function (m) {
+        var mMeta = [m.level, m.period].filter(has)
+          .map(function (x) { return "<span>" + esc(x) + "</span>"; }).join("");
+        return '<li><span class="module__title">' + esc(m.title) + "</span>"
+          + (mMeta ? '<span class="module__meta">' + mMeta + "</span>" : "") + "</li>";
+      }).join("") + "</ul>" : "";
       return "<li><h3>" + esc(t.title) + "</h3>"
         + (meta ? '<p class="meta">' + meta + "</p>" : "")
+        + modList
         + (has(t.text) ? '<p class="body">' + esc(t.text) + "</p>" : "") + "</li>";
     }).join(""));
   } else { hideSection("teaching"); }
