@@ -421,6 +421,28 @@ a:hover { color: var(--accent-deep); text-decoration-color: currentColor; }
 }
 .teaching p.body { margin: 0; font-size: .95rem; color: var(--ink-soft); max-width: var(--measure); }
 
+/* courses listed inside a teaching item (the "modules" list in content.js) */
+.teaching .modules {
+  list-style: none;
+  margin: 0 0 .9rem;
+  padding: 0;
+  max-width: var(--measure);
+  border-left: 2px solid var(--accent-wash);
+}
+.teaching .modules li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: .1rem 1rem;
+  padding: .4rem 0 .4rem .9rem;
+  border-top: none;
+}
+.teaching .modules li:first-child { padding-top: .4rem; }
+.module__title { font-size: .95rem; font-weight: 500; color: var(--ink); }
+.module__meta { font-size: .82rem; color: var(--ink-faint); }
+.module__meta span + span::before { content: " · "; }
+
 /* ----------------------------------------------------------------- talks */
 .talks li {
   display: grid;
