@@ -113,7 +113,7 @@ const CONTENT = {
      ========================================================================== */
 
  about: [
-  "Rita Davidson is an Associate Professor at Universidad de Santiago de Chile and holds a PhD in Business and Management from the University of Manchester. A management and organisation scholar, she studies how organisations manage work, what this means for employees, and how employees themselves influence the way work gets done. She teaches management, strategy, and strategic implementation and control.",
+  "Rita Davidson is an Associate Professor at Universidad de Santiago de Chile and holds a PhD in Business and Management from the University of Manchester. As a management and organisation scholar, she studies how organisations manage work, what this means for employees, and how employees themselves influence the way work gets done. She teaches management, strategy, and strategic implementation and control.",
 
   "Her research examines how responsibilities, expectations and resources shape people’s working lives, and how employees navigate and change these conditions. Her doctoral research explored how organisations manage employees who routinely travel for work and how those employees manage their working lives. This research led to further questions about occupational well-being, identity and job crafting, and how these are shaped by management practices and relationships at work.",
 
