@@ -238,7 +238,7 @@ const CONTENT = {
       links: [],
     },
    {
-      year: "",
+      year: "Present",
       status: "Under review",
       title: "Working with others: How team context shapes the experience of employees with ADHD",
       authors: "Rita Davidson and Maximiliano Escaffi-Schwarz",
