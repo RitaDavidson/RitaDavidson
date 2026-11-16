@@ -112,35 +112,32 @@ const CONTENT = {
      Each item below becomes one paragraph.
      ========================================================================== */
 
-  about: [
-    "Rita Davidson is an Associate Professor at Universidad de Santiago de Chile and holds a PhD in Business and Management from the University of Manchester. Her research explores the relationships between work, organising and well-being, with a particular focus on remote work, job crafting and workplace well-being interventions. Drawing on qualitative and mixed-methods, she examines how people navigate occupational demands and adapt their working practices within organisational and social contexts. She teaches strategy, administration, and qualitative research methods at undergraduate and postgraduate levels.",
+ about: [
+  "Rita Davidson is an Associate Professor at Universidad de Santiago de Chile and holds a PhD in Business and Management from the University of Manchester. A management and organisation scholar, she studies how organisations manage work, what this means for employees, and how employees themselves influence the way work gets done. She teaches management, strategy, and strategic implementation and control.",
 
-    "Currently, Rita is a Most of my work concerns occupational hazards in out-of-premises work and work-related travel, approached qualitatively rather than through survey instruments. Alongside this I study psychological safety and climate in cross-cultural teams, and the social conditions that shape how people craft their own jobs in response to risk.",
+  "Her research examines how responsibilities, expectations and resources shape people’s working lives, and how employees navigate and change these conditions. Her doctoral research explored how organisations manage employees who routinely travel for work and how those employees manage their working lives. This research led to further questions about occupational well-being, identity and job crafting—the changes people make to their own jobs—and how these are shaped by management practices and relationships at work.",
 
-    "I completed my PhD at Alliance Manchester Business School in 2021 with an ethnography of the travelling organisation, supervised by Prof. Damian O\'Doherty and Prof. Damian Hodgson. During my doctorate I spent a year as a research specialist at Tetra Pak in Sweden, running a twelve-month consultancy project on organisational culture that took me to six countries and four languages — an experience that continues to shape how I think about mobile work from the inside.",
+  "Rita uses qualitative methods, particularly ethnography, interviews and focus groups, to understand how work is managed and experienced in practice. Her collaborative research includes work on cultural context and team psychological safety. She also leads focus groups in a SUSESO project examining the demands employees face, the resources available to them and the implications for their well-being.",
+],
 
-    "Methodologically I work with multi-sited, international, and multi-lingual ethnography: participant observation, field interviews, focus groups, workplace shadowing, and archival and biographical methods. I teach strategy and qualitative research methods at undergraduate, MSc, and MBA level, and I am an Associate Fellow of Advance HE.",
-  ],
-
-  researchInterests: [
-    {
-      title: "Occupational health in mobile work",
-      text: "Hazards that appear when work happens away from the premises — business travel, fieldwork, and mobile consulting — and how organisations fail to see them.",
-    },
-    {
-      title: "Job crafting and wellbeing",
-      text: "How travelling workers reshape their own roles to manage risk and protect wellbeing on the road, and what conditions make that possible.",
-    },
-    {
-      title: "Psychological safety across cultures",
-      text: "Productivity norms and the emergence of psychological safety consensus in cross-cultural teams, with a focus on Latin America.",
-    },
-    {
-      title: "Organisational ethnography",
-      text: "Multi-sited, international, and multi-lingual ethnographic methods for studying organisational phenomena that will not hold still.",
-    },
-  ],
-
+ researchInterests: [
+  {
+    title: "The organisation and management of work",
+    text: "How organisations assign responsibilities, set expectations and provide resources, and how employees’ everyday actions sustain or change the way work gets done.",
+  },
+  {
+    title: "Employee responses and job crafting",
+    text: "How people navigate work demands and make changes to their jobs, and how management practices, workplace relationships and working conditions enable or constrain these changes.",
+  },
+  {
+    title: "Working conditions and well-being",
+    text: "How the demands employees face, the support available to them and their freedom to make decisions shape their experiences and well-being, including in work that involves regular travel.",
+  },
+  {
+    title: "Culture and team dynamics",
+    text: "How cultural expectations and workplace norms shape team relationships and psychological safety, including whether people feel able to raise concerns, ask questions and acknowledge mistakes.",
+  },
+],
   // Shown as a short list at the end of the About section.
   education: [
     {
@@ -197,13 +194,13 @@ const CONTENT = {
       details: "Revise and resubmit, March 2026",
       links: [],
     },
-    {
+     {
       year: "",
-      status: "Under revision",
-      title: "The joys and maladies of mobile work: Understanding global work travel as ambivalence",
-      authors: "Rita Davidson",
-      venue: "Scandinavian Journal of Management",
-      details: "Revise and resubmit",
+      status: "Under review",
+      title: "Working with others: How team context shapes the experience of employees with ADHD",
+      authors: "Rita Davidson and Maximiliano Escaffi-Schwarz",
+      venue: "Group & Organization Management",
+      details: "WOS: Q2",
       links: [],
     },
 
@@ -222,15 +219,6 @@ const CONTENT = {
       title: "Crafting wellbeing on the road: job crafting strategies for occupational hazards in work-related travel",
       authors: "Rita Davidson",
       venue: "To be submitted to Journal of Management",
-      details: "",
-      links: [],
-    },
-    {
-      year: "",
-      status: "In progress",
-      title: "Mobile subjectivities: understanding mobile work as embodied",
-      authors: "Rita Davidson",
-      venue: "To be submitted to Organization Studies",
       details: "",
       links: [],
     },
