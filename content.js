@@ -45,7 +45,7 @@ const CONTENT = {
     university: "Universidad de Santiago de Chile",
     location: "Santiago, Chile",
 
-    tagline: "Organisation and management scholar using ethnography to understand occupational health — what happens to people when work travels.",
+    tagline: "Management and organizations scholar - studying occupational health and remote work.",
 
     pageTitle: "Dr. Rita Davidson",
     metaDescription: "Dr. Rita Davidson — organisation and management scholar at the Universidad de Santiago de Chile. Qualitative research on occupational health, global work travel, job crafting, and organisational ethnography.",
@@ -113,9 +113,9 @@ const CONTENT = {
      ========================================================================== */
 
   about: [
-    "I am an organisation and management scholar at the Universidad de Santiago de Chile. My research asks what happens to people's health and wellbeing when work stops staying in one place — when it moves across borders, sites, and languages, and the organisation has to follow it.",
+    "Rita Davidson is an Associate Professor at Universidad de Santiago de Chile and holds a PhD in Business and Management from the University of Manchester. Her research explores the relationships between work, organising and well-being, with a particular focus on remote work, job crafting and workplace well-being interventions. Drawing on qualitative and mixed-methods, she examines how people navigate occupational demands and adapt their working practices within organisational and social contexts. She teaches strategy, administration, and qualitative research methods at undergraduate and postgraduate levels.",
 
-    "Most of my work concerns occupational hazards in out-of-premises work and work-related travel, approached qualitatively rather than through survey instruments. Alongside this I study psychological safety and climate in cross-cultural teams, and the social conditions that shape how people craft their own jobs in response to risk.",
+    "Currently, Rita is a Most of my work concerns occupational hazards in out-of-premises work and work-related travel, approached qualitatively rather than through survey instruments. Alongside this I study psychological safety and climate in cross-cultural teams, and the social conditions that shape how people craft their own jobs in response to risk.",
 
     "I completed my PhD at Alliance Manchester Business School in 2021 with an ethnography of the travelling organisation, supervised by Prof. Damian O\'Doherty and Prof. Damian Hodgson. During my doctorate I spent a year as a research specialist at Tetra Pak in Sweden, running a twelve-month consultancy project on organisational culture that took me to six countries and four languages — an experience that continues to shape how I think about mobile work from the inside.",
 
