@@ -232,16 +232,18 @@ const CONTENT = {
   projects: [
     {
       title: "SUSESO — Managing psychosocial occupational hazards",
-      period: "2025",
+      period: "2025-present",
       funder: "Universidad Diego Portales",
       text: "Qualitative researcher on a project addressing the mitigation of occupational psychosocial risks, responsible for collecting focus-group data.",
       links: [],
     },
-    {
-      title: "Occupational hazards in global work travel",
-      period: "2021 – present",
-      funder: "",
-      text: "An ongoing programme of work, growing out of my doctoral ethnography, on how travelling workers encounter and manage occupational hazards — and how job crafting becomes a form of self-protection when the organisation provides none.",
+   {
+      year: "",
+      status: "Under review",
+      title: "Working with others: How team context shapes the experience of employees with ADHD",
+      authors: "Rita Davidson and Maximiliano Escaffi-Schwarz",
+      venue: "Group & Organization Management",
+      details: "WOS: Q2",
       links: [],
     },
     {
@@ -253,7 +255,7 @@ const CONTENT = {
     },
     {
       title: "Departmental research seminar programme",
-      period: "2024 – present",
+      period: "2024 – 2025",
       funder: "Universidad de Santiago de Chile",
       text: "Leading the department-level research seminar programme, bringing together local faculty with national and international presenters to circulate ideas in business and management.",
       links: [],
