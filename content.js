@@ -8,8 +8,9 @@
    THREE RULES:
      1. Text always goes between "quote marks".
      2. Every line ends with a comma.
-     3. For an apostrophe inside text, write \' — for example:
+     3. For a straight apostrophe ' inside text, write \' — for example:
         "the miners\' journey"
+        (Curly apostrophes like ’ need no backslash.)
 
    To add something to a list, copy an existing block (from { to },),
    paste it, and change the text inside.
@@ -31,21 +32,12 @@ const CONTENT = {
 
   basics: {
     name: "Dr. Rita Davidson",
-
-    // CHECK: your CV lists "Lecturer" (teaching) and "Associate professor"
-    // (research) at USACH for the same period. Pick whichever is the correct
-    // formal title — this is the line people read first.
     role: "Associate Professor",
-
-    // CHECK: your faculty or department at USACH. Your CV mentions the FAE
-    // seminar series, so this is probably "Faculty of Administration and
-    // Economics" — please confirm, or leave it as "" to hide the line.
-    department: "",
-
+    department: "Faculty of Administration and Economics",
     university: "Universidad de Santiago de Chile",
     location: "Santiago, Chile",
 
-    tagline: "Management and organizations scholar - studying occupational health and remote work.",
+    tagline: "Management and organisation scholar — studying occupational health and remote work.",
 
     pageTitle: "Dr. Rita Davidson",
     metaDescription: "Dr. Rita Davidson — organisation and management scholar at the Universidad de Santiago de Chile. Qualitative research on occupational health, global work travel, job crafting, and organisational ethnography.",
@@ -64,8 +56,8 @@ const CONTENT = {
      ========================================================================== */
 
   contact: {
-    // CHECK: this is the address from your CV. If you have an institutional
-    // address (…@usach.cl), that usually looks better on an academic site.
+    // CHECK: if you have an institutional address (…@usach.cl), that usually
+    // looks better on an academic site.
     email: "davidson.rita6@gmail.com",
     emailButtonLabel: "Send me an email",
     emailSubject: "Hello from your website",
@@ -82,11 +74,7 @@ const CONTENT = {
      A NOTE ON  "#"
 
      Writing  "#"  as a link means: show this button, but it doesn't go
-     anywhere yet. The button appears in its proper place and clicking it
-     does nothing. Replace the "#" with a real address when you have one.
-
-     Nothing is currently set to "#": the CV, Google Scholar, and the
-     university page all have real links.
+     anywhere yet. Replace the "#" with a real address when you have one.
      -------------------------------------------------------------------- */
 
   // The CV is the PDF at assets/cv.pdf. It is a public version with no home
@@ -99,9 +87,8 @@ const CONTENT = {
   },
 
   profiles: [
-    { icon: "orcid",    label: "ORCID",    url: "https://orcid.org/0000-0003-0863-4262" },
-    { icon: "linkedin", label: "LinkedIn", url: "https://linkedin.com/in/ritadavidsonresearch" },
-
+    { icon: "orcid",      label: "ORCID",           url: "https://orcid.org/0000-0003-0863-4262" },
+    { icon: "linkedin",   label: "LinkedIn",        url: "https://linkedin.com/in/ritadavidsonresearch" },
     { icon: "scholar",    label: "Google Scholar",  url: "https://scholar.google.com/citations?user=kLKqTwUAAAAJ&hl=en" },
     { icon: "university", label: "University page", url: "https://fae.usach.cl/fae/index.php/academicos-as?view=article&id=239:davidson-rita&catid=11" },
   ],
@@ -112,32 +99,33 @@ const CONTENT = {
      Each item below becomes one paragraph.
      ========================================================================== */
 
- about: [
-  "Rita Davidson is an Associate Professor at Universidad de Santiago de Chile and holds a PhD in Business and Management from the University of Manchester. As a management and organisation scholar, she studies how organisations manage work, what this means for employees, and how employees themselves influence the way work gets done. She teaches management, strategy, and strategic implementation and control.",
+  about: [
+    "Rita Davidson is an Associate Professor at Universidad de Santiago de Chile and holds a PhD in Business and Management from the University of Manchester. As a management and organisation scholar, she studies how organisations manage work, what this means for employees, and how employees themselves influence the way work gets done. She teaches management, strategy, and strategic implementation and control.",
 
-  "Her research examines how responsibilities, expectations and resources shape people’s working lives, and how employees navigate and change these conditions. Her doctoral research explored how organisations manage employees who routinely travel for work and how those employees manage their working lives. This research led to further questions about occupational well-being, identity and job crafting, and how these are shaped by management practices and relationships at work.",
+    "Her research examines how responsibilities, expectations and resources shape people’s working lives, and how employees navigate and change these conditions. Her doctoral research explored how organisations manage employees who routinely travel for work and how those employees manage their working lives. This research led to further questions about occupational well-being, identity and job crafting, and how these are shaped by management practices and relationships at work.",
 
-  "Rita uses qualitative methods, particularly ethnography, interviews and focus groups, to understand how work is managed and experienced in practice. Her collaborative research includes work on cultural context and team psychological safety. She also leads focus groups in a SUSESO project examining the demands employees face, the resources available to them and the implications for their well-being.",
-],
+    "Rita uses qualitative methods, particularly ethnography, interviews and focus groups, to understand how work is managed and experienced in practice. Her collaborative research includes work on cultural context and team psychological safety. She also leads focus groups in a SUSESO project examining the demands employees face, the resources available to them and the implications for their well-being.",
+  ],
 
- researchInterests: [
-  {
-    title: "The organisation and management of work",
-    text: "How organisations assign responsibilities, set expectations and provide resources, and how employees’ everyday actions sustain or change the way work gets done.",
-  },
-  {
-    title: "Employee responses and job crafting",
-    text: "How people navigate work demands and make changes to their jobs, and how management practices, workplace relationships and working conditions enable or constrain these changes.",
-  },
-  {
-    title: "Working conditions and well-being",
-    text: "How the demands employees face, the support available to them and their freedom to make decisions shape their experiences and well-being, including in work that involves regular travel.",
-  },
-  {
-    title: "Culture and team dynamics",
-    text: "How cultural expectations and workplace norms shape team relationships and psychological safety, including whether people feel able to raise concerns, ask questions and acknowledge mistakes.",
-  },
-],
+  researchInterests: [
+    {
+      title: "The organisation and management of work",
+      text: "How organisations assign responsibilities, set expectations and provide resources, and how employees’ everyday actions sustain or change the way work gets done.",
+    },
+    {
+      title: "Employee responses and job crafting",
+      text: "How people navigate work demands and make changes to their jobs, and how management practices, workplace relationships and working conditions enable or constrain these changes.",
+    },
+    {
+      title: "Working conditions and well-being",
+      text: "How the demands employees face, the support available to them and their freedom to make decisions shape their experiences and well-being, including in work that involves regular travel.",
+    },
+    {
+      title: "Culture and team dynamics",
+      text: "How cultural expectations and workplace norms shape team relationships and psychological safety, including whether people feel able to raise concerns, ask questions and acknowledge mistakes.",
+    },
+  ],
+
   // Shown as a short list at the end of the About section.
   education: [
     {
@@ -166,8 +154,7 @@ const CONTENT = {
      Published work first, then work under review and in progress.
 
      "status" is optional — it shows as a small tag above the title.
-     Use it for things like "Under revision" or "In progress". Leave it out
-     (or set it to "") for published work.
+     Leave it out (or set it to "") for published work.
 
      Items with a year sort themselves newest-first. Items with no year stay
      at the bottom, in the order you write them.
@@ -184,7 +171,6 @@ const CONTENT = {
         { label: "DOI", url: "https://doi.org/10.1080/14759551.2025.2551319" },
       ],
     },
-
     {
       year: "",
       status: "Under revision",
@@ -194,16 +180,15 @@ const CONTENT = {
       details: "Revise and resubmit, March 2026",
       links: [],
     },
-     {
+    {
       year: "",
       status: "Under review",
       title: "Working with others: How team context shapes the experience of employees with ADHD",
       authors: "Rita Davidson and Maximiliano Escaffi-Schwarz",
       venue: "Group & Organization Management",
-      details: "WOS: Q2",
+      details: "",
       links: [],
     },
-
     {
       year: "",
       status: "In progress",
@@ -227,23 +212,26 @@ const CONTENT = {
 
   /* ==========================================================================
      5. PROJECTS
+     Newest first.
      ========================================================================== */
 
   projects: [
     {
       title: "SUSESO — Managing psychosocial occupational hazards",
-      period: "2025-present",
+      period: "2025 – present",
+      // CHECK: is Universidad Diego Portales the funder, or the host
+      // institution? If SUSESO funds it, change this line.
       funder: "Universidad Diego Portales",
       text: "Qualitative researcher on a project addressing the mitigation of occupational psychosocial risks, responsible for collecting focus-group data.",
       links: [],
     },
-   {
-      year: "Present",
-      status: "Under review",
-      title: "Working with others: How team context shapes the experience of employees with ADHD",
-      authors: "Rita Davidson and Maximiliano Escaffi-Schwarz",
-      venue: "Group & Organization Management",
-      details: "WOS: Q2",
+    {
+      title: "Departmental research seminar programme",
+      // CHECK: if you still run this, change the period to "2024 – present"
+      // and "Led" back to "Leading".
+      period: "2024 – 2025",
+      funder: "Universidad de Santiago de Chile",
+      text: "Led the department-level research seminar programme, bringing together local faculty with national and international presenters to circulate ideas in business and management.",
       links: [],
     },
     {
@@ -253,13 +241,6 @@ const CONTENT = {
       text: "Research assistant on a project studying identity formation in entrepreneurship, conducting document search and analysis, ethnographic research on everyday life within the project context, and interviews.",
       links: [],
     },
-    {
-      title: "Departmental research seminar programme",
-      period: "2024 – 2025",
-      funder: "Universidad de Santiago de Chile",
-      text: "Leading the department-level research seminar programme, bringing together local faculty with national and international presenters to circulate ideas in business and management.",
-      links: [],
-    },
   ],
 
 
@@ -267,70 +248,50 @@ const CONTENT = {
      6. TEACHING
      ========================================================================== */
 
-teaching: [
-  {
-  title: "Teaching and supervision",
-  role: "Associate Professor",
-  period: "2024 – present",
-  institution: "Universidad de Santiago de Chile",
-  modules: [
+  teaching: [
     {
-      title: "Introduction to Administration",
-      level: "Undergraduate",
-      period: "2026",
-    },
-    {
-      title: "Business Strategy",
-      level: "Undergraduate",
+      title: "Teaching and supervision",
+      role: "Associate Professor",
       period: "2024 – present",
+      institution: "Universidad de Santiago de Chile",
+      modules: [
+        { title: "Introduction to Administration",             level: "Undergraduate",                period: "2026" },
+        { title: "Business Strategy",                          level: "Undergraduate",                period: "2024 – present" },
+        { title: "Strategic Implementation and Control",       level: "Undergraduate",                period: "2026" },
+        { title: "Qualitative Research Methods for Marketing", level: "Master’s — MSc in Marketing",  period: "2024" },
+        { title: "Business Strategy",                          level: "Postgraduate — MBA",           period: "2024" },
+      ],
+      text: "Supervision of master’s theses and examining at undergraduate, master’s and MBA levels, including undergraduate degree examinations (examen de grado).",
     },
     {
-      title: "Strategic Implementation and Control",
-      level: "Undergraduate",
-      period: "2026",
+      title: "Strategy",
+      role: "Lecturer",
+      period: "2023",
+      institution: "Universidad Diego Portales, Chile",
+      text: "Designed and delivered an undergraduate strategy module for management students, developing the curriculum, assessments and teaching materials.",
     },
     {
-      title: "Qualitative Research Methods for Marketing",
-      level: "Master\’s — MSc in Marketing",
-      period: "2024",
+      title: "Doctoral mentoring programme",
+      role: "Postdoctoral investigator",
+      period: "2022 – 2023",
+      institution: "Pontificia Universidad Católica de Valparaíso, Chile",
+      text: "Designed and implemented a mentoring programme for twenty doctoral students, providing support in research methods and project management. Led a training seminar to develop participants’ research and academic skills.",
     },
     {
-      title: "Business Strategy",
-      level: "Postgraduate — MBA",
-      period: "2024",
+      title: "Introduction to Management and Organisation Studies",
+      role: "Lecturer",
+      period: "2019 – 2020",
+      institution: "Alliance Manchester Business School, United Kingdom",
+      text: "Designed and delivered an undergraduate module introducing management and organisation theory to four hundred students. Led a team of five teaching assistants and managed course administration, including assessment design, mark moderation and support for students with additional learning needs.",
+    },
+    {
+      title: "Seminar leadership and coordination",
+      role: "Seminar leader and coordinator",
+      period: "2016 – 2021",
+      institution: "Alliance Manchester Business School, United Kingdom",
+      text: "Taught three undergraduate modules across management and organisation studies, work psychology, and transformational leadership. Coordinated teams of four to twelve seminar leaders and mentored groups of fifteen to twenty students. Kept the seminar programme running through the pandemic, including converting isolating cohorts to hybrid delivery at short notice. Twice awarded the Teaching Excellence Award.",
     },
   ],
-  text: "Supervision of master’s theses and examining at undergraduate, master’s and MBA levels, including undergraduate degree examinations (examen de grado).",
-},
-  {
-    title: "Strategy",
-    role: "Lecturer",
-    period: "2023",
-    institution: "Universidad Diego Portales, Chile",
-    text: "Designed and delivered an undergraduate strategy module for management students, developing the curriculum, assessments and teaching materials.",
-  },
-  {
-    title: "Doctoral mentoring programme",
-    role: "Postdoctoral investigator",
-    period: "2022 – 2023",
-    institution: "Pontificia Universidad Católica de Valparaíso, Chile",
-    text: "Designed and implemented a mentoring programme for twenty doctoral students, providing support in research methods and project management. Led a training seminar to develop participants’ research and academic skills.",
-  },
-  {
-    title: "Introduction to Management and Organisation Studies",
-    role: "Lecturer",
-    period: "2019 – 2020",
-    institution: "Alliance Manchester Business School, United Kingdom",
-    text: "Designed and delivered an undergraduate module introducing management and organisation theory to four hundred students. Led a team of five teaching assistants and managed course administration, including assessment design, mark moderation and support for students with additional learning needs.",
-  },
-  {
-    title: "Seminar leadership and coordination",
-    role: "Seminar leader and coordinator",
-    period: "2016 – 2021",
-    institution: "Alliance Manchester Business School, United Kingdom",
-    text: "Taught three undergraduate modules across management and organisation studies, work psychology, and transformational leadership. Coordinated teams of four to twelve seminar leaders and mentored groups of fifteen to twenty students. Kept the seminar programme running through the pandemic, including converting isolating cohorts to hybrid delivery at short notice. Twice awarded the Teaching Excellence Award.",
-  },
-],  
 
 
   /* ==========================================================================
@@ -350,21 +311,21 @@ teaching: [
       kind: "Invited talk",
       title: "Crafting Wellbeing on the Road: Job Crafting Strategies for Occupational Hazards in Work-related Travel",
       event: "FAE Seminar Series, Universidad de Santiago de Chile",
-      place: "USACH, Santiago, Chile",
+      place: "Santiago, Chile",
     },
     {
       year: 2025,
       kind: "Paper",
       title: "Crafting Wellbeing on the Road: Job Crafting Strategies for Occupational Hazards in Work-related Travel",
       event: "SOCIPCO 2025 Conference, Universidad de los Andes",
-      place: "Universidad de los Andes, Santiago, Chile",
+      place: "Santiago, Chile",
     },
     {
       year: 2024,
       kind: "Co-organiser",
       title: "Co-organised and chaired a panel at a day-long international conference on organisational behaviour",
       event: "SOCIPCO 2024 Conference, Universidad de Santiago de Chile",
-      place: "USACH, Santiago, Chile",
+      place: "Santiago, Chile",
     },
     {
       year: 2024,
@@ -467,8 +428,8 @@ teaching: [
         { year: "", text: "Focus groups" },
         { year: "", text: "Archival and biographical research methods" },
         { year: "", text: "Narrative, thematic, and discourse analysis" },
-        { year: "", text: "NVivo; SPSS Modeller and Statistics" },
-      { year: "", text: "Mixed methods design" },
+        { year: "", text: "Mixed methods design" },
+        { year: "", text: "NVivo; SPSS Modeler and Statistics" },
       ],
     },
     {
