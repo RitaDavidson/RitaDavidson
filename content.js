@@ -237,15 +237,6 @@ const CONTENT = {
       text: "Qualitative researcher on a project addressing the mitigation of occupational psychosocial risks, responsible for collecting focus-group data.",
       links: [],
     },
-   {
-      year: "Present",
-      status: "Under review",
-      title: "Working with others: How team context shapes the experience of employees with ADHD",
-      authors: "Rita Davidson and Maximiliano Escaffi-Schwarz",
-      venue: "Group & Organization Management",
-      details: "WOS: Q2",
-      links: [],
-    },
     {
       title: "FONDECYT — Identity formation in entrepreneurship",
       period: "2023",
