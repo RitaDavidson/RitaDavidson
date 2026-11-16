@@ -291,11 +291,11 @@ teaching: [
     },
     {
       title: "Qualitative Research Methods for Marketing",
-      level: "Master’s — MSc in Marketing",
+      level: "Master\’s — MSc in Marketing",
       period: "2024",
     },
     {
-      title: "Strategy",
+      title: "Business Strategy",
       level: "Postgraduate — MBA",
       period: "2024",
     },
@@ -343,28 +343,28 @@ teaching: [
       kind: "Paper",
       title: "Tracing the Cascade: An Organisational Ethnography of Strategy Dissemination and Meaning-Making",
       event: "AOM Andes Connect Conference",
-      place: "",
+      place: "Universidad de Chile, Santiago, Chile",
     },
     {
       year: 2025,
       kind: "Invited talk",
       title: "Crafting Wellbeing on the Road: Job Crafting Strategies for Occupational Hazards in Work-related Travel",
       event: "FAE Seminar Series, Universidad de Santiago de Chile",
-      place: "Santiago, Chile",
+      place: "USACH, Santiago, Chile",
     },
     {
       year: 2025,
       kind: "Paper",
       title: "Crafting Wellbeing on the Road: Job Crafting Strategies for Occupational Hazards in Work-related Travel",
       event: "SOCIPCO 2025 Conference, Universidad de los Andes",
-      place: "Santiago, Chile",
+      place: "Universidad de los Andes, Santiago, Chile",
     },
     {
       year: 2024,
       kind: "Co-organiser",
       title: "Co-organised and chaired a panel at a day-long international conference on organisational behaviour",
       event: "SOCIPCO 2024 Conference, Universidad de Santiago de Chile",
-      place: "Santiago, Chile",
+      place: "USACH, Santiago, Chile",
     },
     {
       year: 2024,
@@ -455,7 +455,7 @@ teaching: [
         { year: "", text: "European Academy of Occupational Health Psychology (EAOHP)" },
         { year: "", text: "Sociedad Científica Chilena de Psicología y Comportamiento Organizacional (SOCIPCO)" },
         { year: "", text: "European Group of Organisation Studies (EGOS)" },
-        { year: "", text: "MethodsX Ethnography research stream, North West Social Science Doctoral Training Partnership (ESRC)" },
+        { year: "", text: "Previously: MethodsX Ethnography research stream, North West Social Science Doctoral Training Partnership (ESRC)" },
       ],
     },
     {
@@ -468,6 +468,7 @@ teaching: [
         { year: "", text: "Archival and biographical research methods" },
         { year: "", text: "Narrative, thematic, and discourse analysis" },
         { year: "", text: "NVivo; SPSS Modeller and Statistics" },
+      { year: "", text: "Mixed methods design" },
       ],
     },
     {
