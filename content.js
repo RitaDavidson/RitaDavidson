@@ -222,7 +222,7 @@ const CONTENT = {
       status: "In progress",
       title: "Mitigating occupational hazards in global work travel: a job crafting perspective",
       authors: "Rita Davidson and Maximiliano Escaffi-Schwarz",
-      venue: "To be submitted to European Journal of Work and Organizational Psychology",
+      venue: "To be submitted to Journal of Vocational Behavior",
       details: "",
       links: [],
     },
@@ -242,17 +242,17 @@ const CONTENT = {
       links: [],
     },
     {
-      title: "FONDECYT — Identity formation in entrepreneurship",
-      period: "2023",
-      funder: "Pontificia Universidad Católica de Valparaíso",
-      text: "Research assistant on a project studying identity formation in entrepreneurship, conducting document search and analysis, ethnographic research on everyday life within the project context, and interviews.",
-      links: [],
-    },
-    {
       title: "Departmental research seminar programme",
       period: "2024 – 2025",
       funder: "Universidad de Santiago de Chile",
       text: "Leading the department-level research seminar programme, bringing together local faculty with national and international presenters to circulate ideas in business and management.",
+      links: [],
+    }, 
+     {
+      title: "FONDECYT — Identity formation in entrepreneurship",
+      period: "2023",
+      funder: "Pontificia Universidad Católica de Valparaíso",
+      text: "Research assistant on a project studying identity formation in entrepreneurship, conducting document search and analysis, ethnographic research on everyday life within the project context, and interviews.",
       links: [],
     },
   ],
@@ -335,7 +335,7 @@ teaching: [
   conferences: [
     {
       year: 2025,
-      kind: "Paper",
+      kind: "Conference Paper",
       title: "Tracing the Cascade: An Organisational Ethnography of Strategy Dissemination and Meaning-Making",
       event: "AOM Andes Connect Conference",
       place: "Universidad de Chile, Santiago, Chile",
@@ -349,7 +349,7 @@ teaching: [
     },
     {
       year: 2025,
-      kind: "Paper",
+      kind: "Conference Paper",
       title: "Crafting Wellbeing on the Road: Job Crafting Strategies for Occupational Hazards in Work-related Travel",
       event: "SOCIPCO 2025 Conference, Universidad de los Andes",
       place: "Universidad de los Andes, Santiago, Chile",
@@ -363,7 +363,7 @@ teaching: [
     },
     {
       year: 2024,
-      kind: "Paper",
+      kind: "Conference Paper",
       title: "Mitigating occupational hazards in global work travel: a job crafting perspective",
       event: "European Academy of Occupational Health Psychology",
       place: "Granada, Spain",
@@ -391,7 +391,7 @@ teaching: [
     },
     {
       year: 2021,
-      kind: "Paper",
+      kind: "Conference Paper",
       title: "Ethnographic stories of becoming in mobile consulting work",
       event: "12th PROS Symposium",
       place: "Online",
@@ -405,14 +405,14 @@ teaching: [
     },
     {
       year: 2020,
-      kind: "Paper",
+      kind: "Conference Paper",
       title: "“You are here”: Charting, mapping, and organising mobile work",
       event: "European Group of Organisation Studies (EGOS)",
       place: "Hamburg, Germany",
     },
     {
       year: 2019,
-      kind: "Paper",
+      kind: "Conference Paper",
       title: "Getting into Neoliberalism: An ethnographic account of mobile work",
       event: "European Group of Organisation Studies (EGOS)",
       place: "Edinburgh, United Kingdom",
