@@ -168,8 +168,10 @@
   var pubs = (C.publications || []).slice().sort(function (x, y) {
     return (y.year || 0) - (x.year || 0);
   });
-  if (has(pubs)) {
-    set("publications", pubs.map(function (p) {
+  /* Publications with a "group" are shown under that subtitle. Groups appear
+     in the order they first appear in content.js; items without a group come
+     first, with no subtitle. */
+  function pubItem(p) {
       var venue = [
         has(p.venue) ? "<em>" + esc(p.venue) + "</em>" : "",
         has(p.details) ? esc(p.details) : ""
@@ -181,6 +183,21 @@
         + (venue ? '<p class="pub__venue">' + venue + "</p>" : "")
         + chips(p.links)
         + "</div></li>";
+  }
+  if (has(pubs)) {
+    var groupNames = [""];
+    (C.publications || []).forEach(function (p) {
+      var g = has(p.group) ? String(p.group).trim() : "";
+      if (groupNames.indexOf(g) === -1) groupNames.push(g);
+    });
+    set("publications", groupNames.map(function (g) {
+      var items = pubs.filter(function (p) {
+        return (has(p.group) ? String(p.group).trim() : "") === g;
+      });
+      if (!has(items)) return "";
+      return '<div class="pubs__group">'
+        + (g ? '<h4 class="pubs__subtitle">' + esc(g) + "</h4>" : "")
+        + '<ol class="pubs">' + items.map(pubItem).join("") + "</ol></div>";
     }).join(""));
   } else { $("pubs-block").hidden = true; }
 
