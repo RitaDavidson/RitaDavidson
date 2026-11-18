@@ -340,6 +340,18 @@ a:hover { color: var(--accent-deep); text-decoration-color: currentColor; }
 }
 .pubs li:first-child { border-top: none; padding-top: 0; }
 
+/* subtitles inside Publications (the "group" field in content.js) */
+.pubs__group + .pubs__group { margin-top: 2.25rem; }
+.pubs__subtitle {
+  font-family: var(--serif);
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--accent);
+  margin: 0 0 1.1rem;
+  padding-bottom: .5rem;
+  border-bottom: 1px solid var(--line);
+}
+
 .pub__year {
   font-family: var(--sans);
   font-size: .82rem;
