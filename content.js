@@ -175,6 +175,7 @@ const CONTENT = {
 
   publications: [
     {
+      group: "Peer-reviewed publications",
       year: 2025,
       title: "Minding the gap: an analysis of hopeful, mindful organizing in the Chilean miners’ underground journey from collapse to resilience",
       authors: "Matías Sanfuentes, Francisco Valenzuela, and Rita Davidson",
@@ -186,15 +187,17 @@ const CONTENT = {
     },
 
     {
+      group: "Peer-reviewed publications",
       year: "",
       status: "Accepted",
       title: "The Chilling Effect: Productivity Norms and the Emergence of Psychological Safety Consensus in Latin America",
       authors: "Maximiliano Escaffi-Schwarz, Rita Davidson, Lyonel Laulié, and Mahamadou Biga",
       venue: "Journal of Managerial Psychology",
-      details: ,
+      details: "",
       links: [],
     },
      {
+      group: "Manuscripts under review",
       year: "",
       status: "Under review",
       title: "Working with others: How team context shapes the experience of employees with ADHD",
@@ -204,6 +207,7 @@ const CONTENT = {
       links: [],
     },
  {
+      group: "Working papers",
       year: "",
       status: "In progress",
       title: "Crafting wellbeing on the road: job crafting strategies for occupational hazards in work-related travel",
@@ -213,6 +217,7 @@ const CONTENT = {
       links: [],
     },
     {
+      group: "Working papers",
       year: "",
       status: "In progress",
       title: "Mitigating occupational hazards in global work travel: a job crafting perspective",
