@@ -203,7 +203,7 @@ const CONTENT = {
       title: "Working with others: How team context shapes the experience of employees with ADHD",
       authors: "Rita Davidson and Maximiliano Escaffi-Schwarz",
       venue: "Group & Organization Management",
-      details: "WOS: Q2",
+      details: "",
       links: [],
     },
  {
