@@ -113,7 +113,7 @@ const CONTENT = {
      ========================================================================== */
 
  about: [
-  "Rita Davidson is an Associate Professor at Universidad de Santiago de Chile and holds a PhD in Business and Management from the University of Manchester. As a management and organisation scholar, she studies how organisations manage work, what this means for employees, and how employees themselves influence the way work gets done. She teaches management, strategy, and strategic implementation and control.",
+  "Rita Davidson is an Associate Professor at Universidad de Santiago de Chile and holds a PhD in Business and Management from the University of Manchester. As a management and organisation scholar, she studies how organisations manage work, what this means for employees, and how employees themselves influence the way work gets done. She teaches management, organisation and strategy courses on undergraduate and postgraduate levels.",
 
   "Her research examines how responsibilities, expectations and resources shape people’s working lives, and how employees navigate and change these conditions. Her doctoral research explored how organisations manage employees who routinely travel for work and how those employees manage their working lives. This research led to further questions about occupational well-being, identity and job crafting, and how these are shaped by management practices and relationships at work.",
 
@@ -126,7 +126,7 @@ const CONTENT = {
     text: "How organisations assign responsibilities, set expectations and provide resources, and how employees’ everyday actions sustain or change the way work gets done.",
   },
   {
-    title: "Employee responses and job crafting",
+    title: "Work demands, resources, and job crafting",
     text: "How people navigate work demands and make changes to their jobs, and how management practices, workplace relationships and working conditions enable or constrain these changes.",
   },
   {
@@ -187,11 +187,11 @@ const CONTENT = {
 
     {
       year: "",
-      status: "Under revision",
+      status: "Accepted",
       title: "The Chilling Effect: Productivity Norms and the Emergence of Psychological Safety Consensus in Latin America",
       authors: "Maximiliano Escaffi-Schwarz, Rita Davidson, Lyonel Laulié, and Mahamadou Biga",
       venue: "Journal of Managerial Psychology",
-      details: "Revise and resubmit, March 2026",
+      details: ,
       links: [],
     },
      {
@@ -203,22 +203,21 @@ const CONTENT = {
       details: "WOS: Q2",
       links: [],
     },
-
-    {
+ {
       year: "",
       status: "In progress",
-      title: "Mitigating occupational hazards in global work travel: a job crafting perspective",
-      authors: "Rita Davidson and Maximiliano Escaffi-Schwarz",
-      venue: "To be submitted to European Journal of Work and Organizational Psychology",
+      title: "Crafting wellbeing on the road: job crafting strategies for occupational hazards in work-related travel",
+      authors: "Rita Davidson",
+      venue: "To be submitted to Journal of Management",
       details: "",
       links: [],
     },
     {
       year: "",
       status: "In progress",
-      title: "Crafting wellbeing on the road: job crafting strategies for occupational hazards in work-related travel",
-      authors: "Rita Davidson",
-      venue: "To be submitted to Journal of Management",
+      title: "Mitigating occupational hazards in global work travel: a job crafting perspective",
+      authors: "Rita Davidson and Maximiliano Escaffi-Schwarz",
+      venue: "To be submitted to European Journal of Work and Organizational Psychology",
       details: "",
       links: [],
     },
