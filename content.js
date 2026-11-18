@@ -163,18 +163,23 @@ const CONTENT = {
 
   /* ==========================================================================
      4. PUBLICATIONS
-     Published work first, then work under review and in progress.
+
+     "group" is the subtitle the publication appears under, for example
+     "Peer-reviewed publications". Subtitles appear in the order they first
+     appear below. Write the subtitle exactly the same way each time.
 
      "status" is optional — it shows as a small tag above the title.
-     Use it for things like "Under revision" or "In progress". Leave it out
-     (or set it to "") for published work.
+     Leave it out (or set it to "") for published work.
 
-     Items with a year sort themselves newest-first. Items with no year stay
-     at the bottom, in the order you write them.
+     Within each subtitle, items with a year sort themselves newest-first.
+     Items with no year stay below them, in the order you write them.
      ========================================================================== */
 
   publications: [
+
+    /* ---------- Peer-reviewed publications ---------- */
     {
+      group: "Peer-reviewed publications",
       year: 2025,
       title: "Minding the gap: an analysis of hopeful, mindful organizing in the Chilean miners’ underground journey from collapse to resilience",
       authors: "Matías Sanfuentes, Francisco Valenzuela, and Rita Davidson",
@@ -184,41 +189,46 @@ const CONTENT = {
         { label: "DOI", url: "https://doi.org/10.1080/14759551.2025.2551319" },
       ],
     },
-
     {
+      group: "Peer-reviewed publications",
       year: "",
-      status: "Accepted",
-      title: "The Chilling Effect: Productivity Norms and the Emergence of Psychological Safety Consensus in Latin America",
+      status: "In press",
+      title: "The chilling effect: Productivity norms and the emergence of psychological safety consensus in Latin America",
       authors: "Maximiliano Escaffi-Schwarz, Rita Davidson, Lyonel Laulié, and Mahamadou Biga",
       venue: "Journal of Managerial Psychology",
-      details: ,
+      details: "",
       links: [],
     },
-     {
+
+    /* ---------- Manuscripts under review ---------- */
+    {
+      group: "Manuscripts under review",
       year: "",
       status: "Under review",
       title: "Working with others: How team context shapes the experience of employees with ADHD",
       authors: "Rita Davidson and Maximiliano Escaffi-Schwarz",
       venue: "Group & Organization Management",
-      details: "WOS: Q2",
+      details: "",
       links: [],
     },
- {
+
+    /* ---------- Working papers ---------- */
+    {
+      group: "Working papers",
       year: "",
-      status: "In progress",
-      title: "Crafting wellbeing on the road: job crafting strategies for occupational hazards in work-related travel",
-      authors: "Rita Davidson",
-      venue: "To be submitted to Journal of Management",
-      details: "",
+      title: "Crafting Well-being on the Road: Job Crafting Strategies for Occupational Hazards in Work-related Travel",
+      authors: "",
+      venue: "",
+      details: "Manuscript in preparation",
       links: [],
     },
     {
+      group: "Working papers",
       year: "",
-      status: "In progress",
-      title: "Mitigating occupational hazards in global work travel: a job crafting perspective",
+      title: "Mitigating occupational hazards in global work travel: A job crafting perspective",
       authors: "Rita Davidson and Maximiliano Escaffi-Schwarz",
-      venue: "To be submitted to European Journal of Work and Organizational Psychology",
-      details: "",
+      venue: "",
+      details: "Manuscript in preparation",
       links: [],
     },
   ],
